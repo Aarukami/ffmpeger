@@ -9,9 +9,10 @@ from FastTelethonhelper import fast_download, fast_upload
 import logging
 import subprocess
 
-API_ID= int(12176963)
-API_HASH = "7f97838c9ea9f11d782d0fdfe68fe9ef"
-BOT_TOKEN = "5399925428:AAEoR0ejCb-B88uS1-xkRhZgPq6RWkogHf8"
+API_ID= int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
+BOT_TOKEN = getenv("BOT_TOKEN")
+
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
