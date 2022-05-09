@@ -1,7 +1,7 @@
 {
   "name": "Tg_Video_sticker_converter",
   "description": "normal bot",
-  "repository": "https://github.com/Zack-Bloodshot/Tg_Video_sticker_converter",
+  "repository": "https://github.com/Aarukami/ffmpeger",
   "buildpacks": [
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
